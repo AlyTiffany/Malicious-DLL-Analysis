@@ -63,7 +63,7 @@ The compiler timestamp was:
 2024-02-01 11:38:51 UTC
 ```
 
-![Detect It Easy compiler identification](DLL_Dynamioc_PEStudio_compile_date.png)
+![Detect It Easy compiler identification](DLL_Dynamic_PEStudio_compile_date.png)
 
 PE compilation timestamps can be modified or falsified, so the timestamp should not automatically be treated as proof of when the malware was created. However, it remains useful metadata when combined with other findings.
 
