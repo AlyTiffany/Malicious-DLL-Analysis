@@ -105,7 +105,7 @@ The DLL was executed using **rundll32.exe**.
 
 Before executing the DLL, I used **Regshot** to capture a baseline snapshot of the system.
 
-![Regshot baseline](images/regshot-baseline.png)
+![Regshot baseline](RegShot.png)
 
 After execution, I captured a second snapshot and compared the system state.
 
@@ -137,7 +137,7 @@ Windows and other running applications continuously generate registry and filesy
 
 I used **Process Monitor (ProcMon)** to get a more detailed view of activity occurring while the DLL executed.
 
-![Process Monitor DLL activity](images/procmon-rundll32.png)
+![Process Monitor DLL activity](ProcMon_DLL.png)
 
 Filtering the capture around `rundll32.exe` allowed me to examine operations associated with the process executing the DLL.
 
@@ -164,7 +164,7 @@ Using both tools was useful because **Regshot provided a before-and-after compar
 
 I also used **Sysinternals Autoruns** to review common Windows autostart and persistence locations.
 
-![Autoruns persistence review](images/autoruns-comparison.png)
+![Autoruns persistence review](DLL_Dynamic_autoruns_compare.png)
 
 This included examining areas such as:
 
