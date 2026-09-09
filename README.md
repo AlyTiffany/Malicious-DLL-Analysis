@@ -47,7 +47,7 @@ The linker was identified as:
 
 **Turbo Linker 2.25**
 
-![Detect It Easy compiler identification](images/dll_dynamic_compiler.png)
+![Detect It Easy compiler identification](dll_dynamic_compiler.png)
 
 Identifying the compiler provides useful context about how the executable was constructed and can help guide further analysis.
 
