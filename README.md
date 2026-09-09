@@ -63,7 +63,7 @@ The compiler timestamp was:
 2024-02-01 11:38:51 UTC
 ```
 
-![PEStudio compilation timestamp](images/DLL_Dynamic_PEstudio_compile_date.png)
+![Detect It Easy compiler identification](DLL_Dynamioc_PEStudio_compile_date.png)
 
 PE compilation timestamps can be modified or falsified, so the timestamp should not automatically be treated as proof of when the malware was created. However, it remains useful metadata when combined with other findings.
 
@@ -79,7 +79,7 @@ The first two bytes of the file were:
 4D 5A
 ```
 
-![DLL hexadecimal header](images/pe-header-hex.png)
+![Detect It Easy compiler identification](dll_dynamic_hex.png)
 
 `4D 5A` represents the **MZ signature**, which is expected at the beginning of a Windows Portable Executable (PE) file.
 
@@ -109,7 +109,7 @@ Before executing the DLL, I used **Regshot** to capture a baseline snapshot of t
 
 After execution, I captured a second snapshot and compared the system state.
 
-![Regshot comparison](images/regshot-comparison.png)
+![Detect It Easy compiler identification](DLL_Dynamic_regshot_compare.png)
 
 The comparison reported:
 
